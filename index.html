@@ -81,17 +81,27 @@
 
                 <div class="card">
                     <div class="card-block">
-                        <h2>Songs</h2>
+                        <h2>Latest Release</h2>
                         <div class="row">
+                            <!--
+
+                                                        <div class="col-md-4">
+                                                            <img alt="" class="img-responsive" src="./assets/images/WinterInTheRain.png">
+                                                            <h3 class="h5">Winter In The Rain</h3>
+                                                            <p>Jan 2021</p>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <img alt="" class="img-responsive" src="./assets/images/AllNightLong.png">
+                                                            <h3 class="h5">All Night Long</h3>
+                                                            <p>Dec 2020</p>
+                                                        </div>
+                            -->
                             <div class="col-md-4">
-                                <img alt="" class="img-responsive" src="./assets/images/WinterInTheRain.png">
-                                <h3 class="h5">Winter In The Rain</h3>
-                                <!--                                <p>June 2017</p>-->
-                            </div>
-                            <div class="col-md-4">
-                                <img alt="" class="img-responsive" src="./assets/images/AllNightLong.png">
-                                <h3 class="h5">All Night Long</h3>
-                                <!--                                <p>March 2017</p>-->
+                                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen frameborder="0"
+                                        height="200"
+                                        src="https://www.youtube.com/embed/bopopN5DZyg"
+                                        width="355.56"></iframe>
                             </div>
                         </div>
                     </div>
@@ -253,19 +263,33 @@
 
                 <div class="card">
                     <div class="card-block">
-                        <h2>Contact</h2>
-                        <form action="" class="reveal-content">
+                        <h2>Free Music Mixing</h2>
+                        <form action="mailto:reaganlopezmusic.com?subject=Free Music Mixing&message=body"
+                              class="reveal-content" method="post">
                             <div class="form-group">
-                                <input class="form-control" id="email" placeholder="Email" type="email">
+                                <input class="form-control" id="email" placeholder="Enter your Email Address"
+                                       type="email">
+                            </div>
+                            <div class="form-group" hidden>
+                                <input class="form-control" id="subject" placeholder="Free Music Mixing"
+                                       type="text">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="subject" placeholder="Subject" type="text">
+                                <input class="form-control" id="body" placeholder="Enter URL containing music files"
+                                       type="text">
                             </div>
+                            <!--
+
+                                                        <div class="form-group">
+                                                            <textarea class="form-control"
+                                                                      placeholder=""></textarea>
+                                                        </div>
+                            -->
+
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Enter your message" rows="5"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class=" btn btn-primary" type="submit">Send message</button>
+                                <button class="btn btn-primary"
+                                        type="submit">Send Email
+                                </button>
                             </div>
                         </form>
                     </div>
